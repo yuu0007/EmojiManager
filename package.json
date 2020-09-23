@@ -1,0 +1,24 @@
+{
+  "name": "emojimanager",
+  "version": "1.0.0",
+  "description": "Emoji Manager is a Discord Bot that can steal emojis with only using one command!",
+  "author": "Jezzu Morrisen Quimosing (jmquimosing@icloud.com)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuu0007/EmojiManager"
+  },
+  "keywords": [
+    "discord",
+    "discord bot",
+    "discord emoji"
+  ],
+  "license": "apache-2.0",
+  "dependencies": {
+    "discordbot-script": "^1.6.4",
+    "dotenv": "^8.1.9"
+  }
+}
