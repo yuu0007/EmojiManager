@@ -20,6 +20,10 @@ for (const files of folders) {
   } 
 }
 
+bot.Status({
+  0: 1
+});
+
 bot.MessageEvent();
 
 
