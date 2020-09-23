@@ -20,9 +20,23 @@ for (const files of folders) {
   } 
 }
 
-bot.Status({
-  0: 1
+bot.Variables({
+  "count": "1"
 });
+
+bot.Status({
+  0: {
+    type: "LISTENING"
+    description: "Processed over $getVar[count] emojis! || $ping ms"
+  },
+  1: {
+    type: "WATCHING",
+    description: "$allMembersCount users || $serverCount servers"
+  },
+  2: {
+    type: "WATCHING",
+    description: "e!invite || e!help"
+}, 12000);
 
 bot.MessageEvent();
 
