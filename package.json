@@ -19,6 +19,6 @@
   "license": "apache-2.0",
   "dependencies": {
     "discordbot-script": "^1.6.4",
-    "dotenv": "^8.1.9"
+    "dotenv": "^14.2.0"
   }
 }
